@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>W3Schools: JS Variables</title>
+</head>
+
+<body>
+    <p id="pies">pi + pi =</p>
+    <button type="button" onclick=" document.getElementById('pies').innerHTML = added;">ADD PIES</button>
+
+    <br>
+    <p id="multidec">Click The Button For Fact.</p>
+    <button type="button" onclick=" document.getElementById('multidec').innerHTML = 'Did you know that this number is from multi lined variables?: '+ num2">Fact</button>
+
+    <p id="names">Hello, My name is _______</p>
+    <button type="button" onclick="document.getElementById('names').innerHTML = nameob + 'Bob'">Bob</button>
+    <button type="button" onclick="document.getElementById('names').innerHTML = nameob + 'Joe'">Joe</button>
+    <script>
+
+
+        var pie = 3.1415926535;
+        var added = pie * 2;
+        // multi line vars
+        var num1, num2;
+        num1 = 2048;
+        num2 = num1 * 8;
+
+        var nameob = 'Hello, My name is ';
+    </script>
+
+</body>
+
+
+
+</html>
