@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>W3Schools: JS String Methods</title>
+</head>
+
+<body>
+    <script>
+        var rand = "I really like eating cheese and cake.";
+        var rand2 = "I also like cheese and cake and pie and cake and cheese and pies."
+        var rand3 = "Cool , Awesome , Amazing"
+
+    </script>
+
+    <p id="disp"></p>
+    <button onclick="document.getElementById('disp').innerHTML = rand.indexOf('cake');">.indexOf cake</button>
+    <button onclick="document.getElementById('disp').innerHTML = rand2.lastIndexOf('pies');">.lastIndexOf pies</button>
+    <button onclick="document.getElementById('disp').innerHTML = rand3.slice(7, 14);">.slice 7, 14</button>
+
+
+</body>
+
+</html>
